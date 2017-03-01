@@ -100,7 +100,7 @@ void checkGuess(Player &player, Dealer &dealer)
 }
 
 
-void displayerGrandWinner(Player player1, Player player2)
+void displayGrandWinner(Player player1, Player player2)
 {
 
 cout << "~~~~~~~~~~~~~~~~~~~~~~~~~\n";

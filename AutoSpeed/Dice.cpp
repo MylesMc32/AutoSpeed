@@ -16,9 +16,9 @@ using namespace std;
 
 Dice::Dice(int numSides)
 {
-   unsigned seed = time(0);
+   long seed = time(0);
 
-  srand(seed);
+   srand(seed);
     sides = numSides;
     
     roll();
